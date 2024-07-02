@@ -3,3 +3,4 @@ songs_data_cleaned.csv
 songs_data_afterEDA.csv
 xtrain.npy
 songs_top5_model.pkl
+xtrainV2.npy
