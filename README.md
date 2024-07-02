@@ -7,15 +7,14 @@ Platforms like Spotify and Apple Music provide a global stage for music, allowin
 ## Data
 The data utilized in this project was sourced from multiple Kaggle datasets. The 2 main datasets include information from Spotify, encompassing song rankings and key audio features such as danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. Socio-economic indicators were obtained from the 3 last datasets and integrated into the analysis to provide a comprehensive view. These combined data sources form the basis for developing the predictive model.
 
-<a>href="https://www.kaggle.com/datasets/byomokeshsenapati/spotify-song-attributes?resource=download"> Song Attributes</a>
+__[Song Attributes](https://www.kaggle.com/datasets/byomokeshsenapati/spotify-song-attributes?resource=download)__
 __[Top Songs Spotify](www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)__
-
-<a> href="https://www.kaggle.com/datasets/vibhorsen/countries-by-population-happiness-index-religion"> Religion and happiness index<a>
-<a> href="https://www.kaggle.com/datasets/toriqulstu/global-socio-economic-and-environmental-indicators"> Socio-Economic Indicators<a>
-<a> href="https://www.kaggle.com/datasets/sumairseth/socioeconomic-spread-of-countries?resource=download"> Socio-Economic spread of countries <a>
+__[Religion and happiness index](https://www.kaggle.com/datasets/vibhorsen/countries-by-population-happiness-index-religion)__
+__[Socio-Economic Indicators](https://www.kaggle.com/datasets/toriqulstu/global-socio-economic-and-environmental-indicators)__
+__[Socio-Economic spread of countries](https://www.kaggle.com/datasets/sumairseth/socioeconomic-spread-of-countries?resource=download)__
 
 It is worth nothing, several of these datasets get updated regularly. The data used was downloaded in May 2024.
 
 ## Data Cleaning
 
-<a> href="https://github.com/alfredoh90/CAPSTONE2/blob/main/Notebooks/data_wrangling.ipynb"> Data Wrangling </a>
+__[Data Wrangling](https://github.com/alfredoh90/CAPSTONE2/blob/main/Notebooks/data_wrangling.ipynb)__
