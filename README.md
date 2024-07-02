@@ -135,13 +135,13 @@ The best model from the testing itterations was the Random Forest. After running
 
 __[Metrics](https://docs.google.com/spreadsheets/d/1ZVsb0Y4OL8LwjQd2s9vIV-xZxCPsGLCzdikKBjYmUI0/edit?gid=0#gid=0)__
 
-<img src="Images/metrics.png" alt="Metrics results">
+<img src="Images/metrics.PNG" alt="Metrics results">
 
 
 #### Feature Importance
 The "best"model identified showed that the most important features to predict a song making it to the top5 in a country is the days since release, followed by musical attributes like valence and energy and a much lower impact the religion and GDP of the country:
 
-<img src="Images/features_importance.png" alt="Feature Importance">
+<img src="Images/features_importance.PNG" alt="Feature Importance">
 
 The model created can provide guidelines to the type of songs that are more likely to make it to the top5 but also can help predict wether a song will make it to the top5 based on the songs attributes as well as the country specific socio economic indicators.
 
