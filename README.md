@@ -1,5 +1,6 @@
 # Building a predictive model for songs ranking in top 5
 ##### Capstone project 2
+
 With the development of the internet, cultural globalization has accelerated significantly. Faster internet speeds and widespread network accessibility have effectively dissolved the borders between countries, especially in the realm of music. The internet enables songs to be heard globally within moments of their release and fosters the fusion of diverse musical styles, artists, and instruments, creating new genres that reflect our increasingly multicultural world.
 
 Platforms like Spotify and Apple Music provide a global stage for music, allowing us to track the performance of various songs and genres across different regions. This vast availability of data offers an unprecedented opportunity to analyze and uncover the patterns and characteristics that contribute to a song's success on a global scale. By examining song attributes and socio-economic indicators of different countries, this project aims to develop a predictive model to determine whether a song will reach the top 5.
@@ -7,9 +8,7 @@ Platforms like Spotify and Apple Music provide a global stage for music, allowin
 ## Data
 The data utilized in this project was sourced from multiple Kaggle datasets. The 2 main datasets include information from Spotify, encompassing song rankings and key audio features such as danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration, and time signature. Socio-economic indicators were obtained from the 3 last datasets and integrated into the analysis to provide a comprehensive view. These combined data sources form the basis for developing the predictive model.
 
-__[Song Attributes](https://www.kaggle.com/datasets/byomokeshsenapati/spotify-song-attributes?resource=download)__
-
-__[Top Songs Spotify](www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)__
+__[Top Songs Spotify](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated)__
 
 __[Religion and happiness index](https://www.kaggle.com/datasets/vibhorsen/countries-by-population-happiness-index-religion)__
 
@@ -146,4 +145,36 @@ The "best"model identified showed that the most important features to predict a 
 The model created can provide guidelines to the type of songs that are more likely to make it to the top5 but also can help predict wether a song will make it to the top5 based on the songs attributes as well as the country specific socio economic indicators.
 
 ## Next Steps
-The next steps for this project should be to dive deeper into how this data can be modeled at a country level by potentially concentrating on countries with the most number of listeners or the best ROI for the music industry, where we can further understand the relationship of the songs attributes to the daily ranking and the likelihood of the song placing in the top5.
+After completing this project, it is clear that there is potential to predict whether a song will reach the top 5 by analyzing song characteristics and socio-economic indicators. Our results show that a combination of both musical attributes and socio-economic factors can significantly enhance the accuracy of these predictions.
+
+To build on the current findings, future work should focus on the following areas:
+<b> Country-Level Analysis:
+<ul>
+    <li>Dive deeper into modeling the data at a country-specific level.</li>
+    <li>Concentrate on countries with the highest number of listeners or those providing the best return on investment (ROI) for the music industry.</li>
+</ul>
+
+<b> Temporal Dynamics:
+<ul>
+    <li>Analyze temporal trends to understand how song popularity evolves over time.</li>
+    <li>Incorporate time series analysis to predict future trends and identify early indicators of potential hits.</li>
+</ul>
+
+<b> Genre-Specific Models:
+<ul>
+    <li>Develop separate models for different music genres to account for genre-specific characteristics and listener preferences.</li>
+    <li>Compare the performance and predictive power of genre-specific models versus a general model.</li>
+</ul>
+
+<b> Enhanced Feature Engineering:
+<ul>
+    <li>Explore additional features such as social media presence, marketing efforts, and cultural factors.</li>
+    <li>Incorporate advanced natural language processing (NLP) techniques to analyze song lyrics for thematic and emotional content.</li>
+</ul>
+
+<b> Model Optimization and Validation:
+<ul>
+    <li>Experiment with more sophisticated machine learning algorithms and ensemble methods to improve prediction accuracy.</li>
+</ul>
+
+If we apply these next steps, we can further refine our understanding of the factors driving song popularity and enhance our predictive capabilities. This deeper insight will provide valuable guidance for artists, producers, and marketers aiming to maximize the reach and impact of their music in the global market.
