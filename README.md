@@ -148,31 +148,31 @@ The model created can provide guidelines to the type of songs that are more like
 After completing this project, it is clear that there is potential to predict whether a song will reach the top 5 by analyzing song characteristics and socio-economic indicators. Our results show that a combination of both musical attributes and socio-economic factors can significantly enhance the accuracy of these predictions.
 
 To build on the current findings, future work should focus on the following areas:
-<b> Country-Level Analysis:
+<b> Country-Level Analysis:</b>
 <ul>
     <li>Dive deeper into modeling the data at a country-specific level.</li>
     <li>Concentrate on countries with the highest number of listeners or those providing the best return on investment (ROI) for the music industry.</li>
 </ul>
 
-<b> Temporal Dynamics:
+<b> Temporal Dynamics:</b>
 <ul>
     <li>Analyze temporal trends to understand how song popularity evolves over time.</li>
     <li>Incorporate time series analysis to predict future trends and identify early indicators of potential hits.</li>
 </ul>
 
-<b> Genre-Specific Models:
+<b> Genre-Specific Models:</b>
 <ul>
     <li>Develop separate models for different music genres to account for genre-specific characteristics and listener preferences.</li>
     <li>Compare the performance and predictive power of genre-specific models versus a general model.</li>
 </ul>
 
-<b> Enhanced Feature Engineering:
+<b> Enhanced Feature Engineering:</b>
 <ul>
     <li>Explore additional features such as social media presence, marketing efforts, and cultural factors.</li>
     <li>Incorporate advanced natural language processing (NLP) techniques to analyze song lyrics for thematic and emotional content.</li>
 </ul>
 
-<b> Model Optimization and Validation:
+<b> Model Optimization and Validation:</b>
 <ul>
     <li>Experiment with more sophisticated machine learning algorithms and ensemble methods to improve prediction accuracy.</li>
 </ul>
